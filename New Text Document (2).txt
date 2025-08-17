@@ -1,0 +1,18 @@
+Heart Disease Prediction Using UCI Dataset 
+This project focuses on developing a Artificial Intelligence model to predict the presence of heart disease in patients based on clinical and demographic data.
+The UCI Heart Disease Dataset includes 13 key features such as age, cholesterol level, resting blood pressure, chest pain type, and maximum heart rate achieved.
+Using algorithms like Logistic Regression, Support Vector Machine (SVM), and Decision Tree (ID3), and KNN, the goal is to classify whether a patient is likely to have heart disease or not.
+This model can assist healthcare professionals in early diagnosis and decision-making. 
+Preprocessing: Before building your models, you need to make sure that the dataset is clean and ready-to-use.
+Feature Selection and Extraction: Visualize correlation.
+Modeling Step: 
+•Choose the best technique to predict the potability of Heart Disease with a high accuracy. You must prove by the code that the chosen algorithm produces a higher accuracy than the other algorithms.
+• Try to use Logistic Regression, SVM and Decision Tree (ID3),and KNN. Model Evaluation: • Accuracy • Confusion matrix 
+• Classification report UCI Heart Disease Dataset – Description The UCI Heart Disease Dataset is a well-known medical dataset collected from the Cleveland Clinic Foundation, originally made available by the UCI Machine Learning Repository.
+It contains 303 patient records, each with 13 clinical attributes used to predict the presence or absence of heart disease.
+• Target Variable: o target (0 = no heart disease, 1 = heart disease) 
+• Key Features: o age: Age of the patient o sex: Gender (1 = male; 0 = female) o cp: Chest pain type (0–3) o trestbps: Resting blood pressure o chol: Serum cholesterol (mg/dl) o fbs: Fasting blood sugar > 120 mg/dl (1 = true; 0 = false) o restecg: Resting electrocardiographic results o thalach: Maximum heart rate achieved o exang: Exercise-induced angina o oldpeak: ST depression induced by exercise o slope: Slope of the peak exercise ST segment o ca: Number of major vessels colored by fluoroscopy o thal: Thalassemia (3 = normal; 6 = fixed defect; 7 = reversible defect) 
+UCI Dataset Bonus Tasks: 
+• Use any feature selection or feature extraction methods. 
+• Implement one of the classification algorithms that you have learned from scratch. (You must understand the steps very well) 
+• Make an application with a well-designed GUI that accepts the data of Heart Disease measurements from the user and the input classification method (SVM , ID3, …) then predict if the Heart Disease Prediction is potable or not. implement it as python code
